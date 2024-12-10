@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Use the school routes
-app.use("/api", schoolRoutes);
+app.use(schoolRoutes);
 app.use((req, res, next) => {
   console.log(`Received ${req.method} request for ${req.url}`);
   next();
