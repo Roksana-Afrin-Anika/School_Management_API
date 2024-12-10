@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const db = mysql.createConnection({
   host: "sql5.freesqldatabase.com", // Host from FreeSQLDatabase
   user: "sql5751204", // Your username from FreeSQLDatabase
-  password: "Lovebird13#", // Your password (check your email for this)
+  password: "MySQL@2024$Root", // Your password (check your email for this)
   database: "sql5751204", // Your database name from FreeSQLDatabase
 });
 
